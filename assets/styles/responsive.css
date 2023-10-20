@@ -90,7 +90,7 @@
         width: 40px;
         position: relative;
         top: 0px;
-        left: 20px;
+        left: 10px;
     }
 
     .navbar-light .navbar-toggler {
@@ -146,7 +146,7 @@
         padding: 4px;
     }
 
-    .btn-closed:Hover {
+    .btn-closed:hover {
         transition: 0.2s;
         filter: brightness(90%);
     }
@@ -171,7 +171,7 @@
         color: black;
     }
 
-    .sidebar a:Hover {
+    .sidebar a:hover {
         cursor: pointer;
         filter: brightness(90%);
     }
@@ -293,6 +293,25 @@
     .wrap-button img {
         width: 22px;
         margin-right: 10px;
+    }
+
+    .btn-toggle {
+        border: 1px solid rgb(163, 163, 163);
+        border-radius: 4px;
+        margin-right: 20px;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    
+    .navbar-toggler-icon {
+        width: 35px;
+        margin: 3px 0;
     }
 
     .btn-section1 {
@@ -541,6 +560,12 @@
         justify-content: start;
         align-items: start;
         color: #193766;
+    }
+
+    .navbar-brand2 {
+        position: relative;
+        font-size: 30px;
+        margin-left: 20px;
     }
 
     .wa-feature {
