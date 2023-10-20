@@ -262,6 +262,10 @@ body {
     background: var(--bgColor);
 }
 
+.btn-toggle {
+    display: none;
+}
+
 .section1-left h1 {
     color: var(--blueDark);
     font-size: 80px;
